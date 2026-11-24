@@ -81,8 +81,10 @@ p { margin: 0 0 var(--s2); }
 .hero { position: relative; min-height: 100svh; display: flex; align-items: flex-end; color: #fff; isolation: isolate;
   /* Replace assets/images/placeholder-architectural.webp with a real project photo/render; the grid shows until then */
   background:
-    linear-gradient(180deg, rgba(8,8,9,.9) 0%, rgba(8,8,9,.82) 45%, rgba(8,8,9,.96) 100%),
-    url("../assets/images/placeholder-architectural.webp") center/cover no-repeat,
+    linear-gradient(90deg, rgba(8,8,9,.78) 0%, rgba(8,8,9,.35) 60%, rgba(8,8,9,.1) 100%),
+    linear-gradient(180deg, rgba(8,8,9,.55) 0%, rgba(8,8,9,.3) 40%, rgba(8,8,9,.92) 100%),
+    url("../assets/images/hero.jpg") 60% center/cover no-repeat,
+    #0c0c0d; }
     #0c0c0d; }
 .hero::before { content: ""; position: absolute; inset: 0; z-index: -1; opacity: .5;
   background-image: linear-gradient(rgba(233,168,32,.12) 1px, transparent 1px), linear-gradient(90deg, rgba(233,168,32,.12) 1px, transparent 1px);
